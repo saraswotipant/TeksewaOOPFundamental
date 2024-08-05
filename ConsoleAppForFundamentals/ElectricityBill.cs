@@ -23,6 +23,7 @@ if (int.TryParse(electricityUnit,out unit))
         totalAmount = 2000;
     }
     Console.WriteLine($"The total electricity bill amount is Rs {totalAmount}");
+
 }
 
 
@@ -54,4 +55,5 @@ if (int.TryParse(electricityUnitInput, out units))
         break;
     }
     Console.WriteLine($"The total electricity bill amount is Rs {totalAmount1}");
+    
 }
